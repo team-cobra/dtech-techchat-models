@@ -1,0 +1,35 @@
+{
+  "name": "@team-cobra/dtech-techchat-models",
+  "version": "0.0.1",
+  "description": "Models für dTech TechChat ",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc --skipLibCheck",
+    "test": "mocha --exit",
+    "test-ci": "nyc -a mocha --recursive",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/team-cobra/dtech-main-models.git"
+  },
+  "author": "Dataport",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/team-cobra/dtech-techchat-models/issues"
+  },
+  "homepage": "https://github.com/team-cobra/dtech-techchat-models#readme",
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "class-validator": "^0.12.2"
+  }
+}
