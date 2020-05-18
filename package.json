@@ -20,7 +20,7 @@
     "type": "git",
     "url": "git+https://github.com/team-cobra/dtech-main-models.git"
   },
-  "author": "Dataport",
+  "author": "Jan Heinsohn",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/team-cobra/dtech-techchat-models/issues"
