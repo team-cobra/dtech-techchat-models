@@ -1,7 +1,7 @@
 {
-  "name": "@team-cobra/dtech-techchat-models",
+  "name": "@team-cobra/hannah-natterchat-models",
   "version": "0.0.1",
-  "description": "Models für dTech TechChat ",
+  "description": "Models für hannah-natterchat",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "publishConfig": {
@@ -18,14 +18,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/team-cobra/dtech-main-models.git"
+    "url": "git+https://github.com/team-cobra/hannah-main-models.git"
   },
   "author": "Jan Heinsohn",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/team-cobra/dtech-techchat-models/issues"
+    "url": "https://github.com/team-cobra/hannah-natterchat-models/issues"
   },
-  "homepage": "https://github.com/team-cobra/dtech-techchat-models#readme",
+  "homepage": "https://github.com/team-cobra/hannah-natterchat-models#readme",
   "devDependencies": {
     "typescript": "^3.8.3"
   },
